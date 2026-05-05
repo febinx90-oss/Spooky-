@@ -3,7 +3,7 @@
 A customized fork of nRFBox firmware for ESP32 with extended attack and research capabilities.
 
 ## What's New
-- **TV-B-Gone** — IR power-off codes for TVs and set-top boxes. Automatically starts after 5 seconds of device idle. Supported TVs: Sony, Samsung, Impex, Philips
+- **TV-B-Gone** — IR power-off codes for TVs.Automatically starts after 5 seconds of device idle. Supported TVs: Sony, Samsung, Impex, Philips
 - **BLE Spoofer** — Extended with new device profiles and added valid Fast Pair ID and Swift Pair
 - **HID Injection** — Keyboard injection support added
 
