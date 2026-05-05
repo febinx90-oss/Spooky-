@@ -4,7 +4,7 @@ A customized fork of nRFBox firmware for ESP32 with extended attack and research
 
 ## What's New
 - **TV-B-Gone** — IR power-off codes for TVs and set-top boxes
-- **BLE Spoofer** — Extended with new device profiles
+- **BLE Spoofer** — Extended with new device profiles and added valid Fast Pair ID and Swift Pair
 - **HID Injection** — Keyboard injection support added
 
 ## Hardware
@@ -25,3 +25,4 @@ A customized fork of nRFBox firmware for ESP32 with extended attack and research
 
 ## Credits
 Based on nRFBox by original authors.
+https://github.com/cifertech/nrfbox
