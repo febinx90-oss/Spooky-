@@ -908,7 +908,7 @@ namespace Spoofer {
     hidTypeSlow("notepad");
     hidKeyboard->write(KEY_RETURN);
     delay(1500);
-    hidTypeSlow("Hello from ESP32!");
+    hidTypeSlow("Hello from ESP32!"); // you can add note here
     delay(300);
     u8g2.clearBuffer();
     u8g2.setFont(u8g2_font_profont11_tf);
@@ -935,7 +935,7 @@ namespace Spoofer {
     hidShowStatus("Fake CMD Spam");
     hidPressWin('r');
     delay(400);
-    // spawn 30 CMD windows via nested start commands
+    // spawn 60 CMD windows via nested start commands
     hidTypeSlow("cmd /c \"for /l %i in (1,1,60) do start cmd /k echo Hacked %i\"");
     hidKeyboard->write(KEY_RETURN);
     delay(300);
