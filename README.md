@@ -7,6 +7,10 @@ A customized fork of nRFBox firmware for ESP32 with extended attack and research
 - **BLE Spoofer** — Extended with new device profiles and added valid Fast Pair ID and Swift Pair
 - **HID Injection** — Keyboard injection support added
 
+- Note: For hid injection you have to add Instagram, YouTube videos in blutooth.cpp file.
+line number 924 of bluetooth.cpp is for YouTube video
+line number 955 of bluetooth.cpp is for Instagram reel (you can modify as your need)
+
 ## Hardware
 - ESP32-WROOM-32
 - SSD1306 OLED Display
