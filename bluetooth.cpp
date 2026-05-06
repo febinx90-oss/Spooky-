@@ -921,7 +921,7 @@ namespace Spoofer {
     hidShowStatus("YouTube Rickroll");
     hidPressWin('r');
     delay(400);
-    hidTypeSlow(""); // add your video link here
+    hidTypeSlow(""); // add your YouTube video link here
     hidKeyboard->write(KEY_RETURN);
     delay(300);
     u8g2.clearBuffer();
@@ -952,7 +952,7 @@ namespace Spoofer {
     hidShowStatus("Instagram Reel");
     hidPressWin('r');
     delay(400);
-    hidTypeSlow(""); // Add your reel link here
+    hidTypeSlow(""); // Add your Instagram reel link here
     hidKeyboard->write(KEY_RETURN);
     delay(300);
     u8g2.clearBuffer();
